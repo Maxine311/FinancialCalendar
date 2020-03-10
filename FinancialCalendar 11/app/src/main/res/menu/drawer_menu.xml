@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_year"
+            android:icon="@drawable/ic_year"
+            android:title="年"/>
+        <item
+            android:id="@+id/nav_month"
+            android:icon="@drawable/ic_month"
+            android:title="月"/>
+    </group>
+
+    <item
+        android:id="@+id/nav_stock"
+        android:icon="@drawable/ic_stock"
+        android:title="自選股"/>
+
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_news"
+        android:title="早晚報"/>
+
+
+    <item android:title="財經事件">
+    <menu
+        android:id="@+id/group2"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_event1"
+            android:title="@string/event1"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style"/>
+
+        <item
+            android:id="@+id/nav_event2"
+            android:title="@string/event2"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style2"/>
+        <item
+            android:id="@+id/nav_event3"
+            android:title="@string/event3"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style3"/>
+        <item
+            android:id="@+id/nav_event4"
+            android:title="@string/event4"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style4"/>
+        <item
+            android:id="@+id/nav_event5"
+            android:title="@string/event5"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style5"/>
+        <item
+            android:id="@+id/nav_event6"
+            android:title="@string/event6"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style6"/>
+        <item
+            android:id="@+id/nav_event7"
+            android:title="@string/event7"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style7"/>
+        <item
+            android:id="@+id/nav_event8"
+            android:title="@string/event8"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style8"/>
+        <item
+            android:id="@+id/nav_event9"
+            android:title="@string/event9"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style9"/>
+        <item
+            android:id="@+id/nav_event10"
+            android:title="@string/event10"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style10"/>
+        <item
+            android:id="@+id/nav_event11"
+            android:title="@string/event11"
+            app:showAsAction="never"
+            android:checkable="true"
+            app:actionLayout="@layout/checkbox_style11"/>
+    </menu>
+    </item>
+
+</menu>

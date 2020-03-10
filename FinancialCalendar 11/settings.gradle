@@ -1,0 +1,2 @@
+include ':app', ':calendarview1'
+project(':calendarview1').projectDir = new File('calendarview')

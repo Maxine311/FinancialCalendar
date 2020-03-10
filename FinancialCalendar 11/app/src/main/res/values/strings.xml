@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Application12</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="user_name" translatable="false">Esti</string>
+    <string name="account" translatable="false">cmoney_account</string>
+
+    <string name="login_account" translatable="false">帳號 : </string>
+    <string name="login_password" translatable="false">密碼 : </string>
+    <string name="login_btn" translatable="false">登入</string>
+
+    <string name="event1" translatable="false">月營收公告</string>
+    <string name="event2" translatable="false">財報公告</string>
+    <string name="event3" translatable="false">除權</string>
+    <string name="event4" translatable="false">除息</string>
+    <string name="event5" translatable="false">法說會</string>
+    <string name="event6" translatable="false">增資</string>
+    <string name="event7" translatable="false">減資</string>
+    <string name="event8" translatable="false">股東會</string>
+    <string name="event9" translatable="false">申報轉讓</string>
+    <string name="event10" translatable="false">庫藏股</string>
+    <string name="event11" translatable="false">最後回補日</string>
+
+    <string-array name="english_week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string-array name="chinese_week_string_array">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+</resources>

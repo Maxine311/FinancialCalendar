@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#FFFF87A5"
+                android:endColor="#005ab5"
+                android:angle="45"/>
+            <!--
+            type    "radial","linear"圓環或線狀
+                    ↑圓環需要搭配 android:gradientRadius="60dp"
+            startColor
+            centerColor
+            endColor
+            -->
+        </shape>
+    </item>
+</selector>
